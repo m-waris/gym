@@ -2,6 +2,8 @@
 
 import { motion, TargetAndTransition, Transition } from "framer-motion";
 import { useEffect, useState } from "react";
+import Lottie from "lottie-react";
+import pushUpIcon from "@/public/gym.json";
 
 const HEADLINE_WORDS = ["BREAK", "YOUR", "LIMITS."];
 
@@ -112,18 +114,19 @@ export default function Hero() {
 
         <motion.div
           className="relative sm:h-[500px] sm:min-h-[400px] w-full overflow-hidden lg:h-full"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: LOADER_OFFSET + 0.4, duration: 0.8 }}
+
+          initial={{ x: "120%", skewX: -20, opacity: 0 }}
+          animate={{ x: "0%", skewX: 0, opacity: 1 }}
+          transition={{
+            duration: 0.7,
+            ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
+            delay: LOADER_OFFSET + 0.1,
+          }}
         >
-          <video
-            src="/dumbbell.mp4"
-            poster="/dumbbell.jpeg"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="object-cover lg:mt-32 lg:h-1/2 xl:mt-20 xl:h-4/6"
+          <Lottie
+            animationData={pushUpIcon}
+            loop={true}
+            autoplay={true}
           />
         </motion.div>
       </div>
