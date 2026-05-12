@@ -119,7 +119,7 @@ export default function Navbar() {
                 />
               </svg>
               <span className="font-display sm:text-[24px] leading-none text-[#F5F5F5]">
-                La Forza
+                Strong
               </span>
             </a>
           </div>

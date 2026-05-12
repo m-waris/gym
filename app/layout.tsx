@@ -18,7 +18,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "La Forza",
+  title: "Strong",
   description: "Elite gym. Zero excuses.",
 };
 
@@ -96,9 +96,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               strokeLinejoin="round"
             />
           </svg>
-          <div id="css-loader-wordmark">La Forza</div>
+          <div id="css-loader-wordmark">Strong</div>
           <div id="css-loader-line" />
-          <p id="css-loader-caption">Raising the bar...</p>
+          <p id="css-loader-caption">Start lifting...</p>
         </div>
 
         <div className="noise-overlay" />

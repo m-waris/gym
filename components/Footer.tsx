@@ -27,7 +27,7 @@ export default function Footer() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span className="font-display text-[24px] leading-none text-[#F5F5F5]">La Forza</span>
+            <span className="font-display text-[24px] leading-none text-[#F5F5F5]">Strong</span>
           </a>
 
           <nav className="flex flex-wrap items-center justify-center gap-6">
@@ -84,7 +84,7 @@ export default function Footer() {
 
         <div className="mt-8 border-t border-[#2A2A2A] pt-6 text-center">
           <p className="font-body text-xs text-[#555555]">
-            © {new Date().getFullYear()} La Forza. ALL RIGHTS RESERVED.
+            © {new Date().getFullYear()} Strong. ALL RIGHTS RESERVED.
           </p>
           <span className="text-xs mt-1 text-[#555555]">Made with <span className="text-accent"> ❤ </span> by {" "}
             <a className="underline hover:underline-offset-2 hover:text-[#F5F5F5] transition-all duration-200 font-extrabold italic"  href="https://mwarismahmood.vercel.app/" target="blank">Waris</a>

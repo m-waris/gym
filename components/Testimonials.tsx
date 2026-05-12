@@ -14,7 +14,7 @@ type Testimonial = {
 const TESTIMONIALS: Testimonial[] = [
   {
     quote:
-      "La Forza completely transformed my body and mindset. Best investment I've ever made in myself.",
+      "Strong completely transformed my body and mindset. Best investment I've ever made in myself.",
     name: "AHMED RAZA",
     role: "Member since 2022",
     avatar:

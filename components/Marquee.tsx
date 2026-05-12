@@ -11,7 +11,7 @@ const MARQUEE_TEXT_PARTS = [
   "·",
   " RESULTS ",
   "·",
-  " La Forza ",
+  " Strong ",
   "·",
 
 ];

@@ -33,7 +33,7 @@ const INFO_ROWS = [
   },
   {
     label: "REACH US",
-    value: "hello@laforza.com\n+92 300 1234567",
+    value: "hello@strong.com\n+92 300 1234567",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" strokeWidth="1.8" />
